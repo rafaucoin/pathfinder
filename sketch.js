@@ -117,13 +117,13 @@ function controls() {
   newline = createDiv("Rows");
   newline.parent("main-content");
 
-  rowcount = createInput('30', 'number');
+  rowcount = createInput('20', 'number');
   rowcount.parent("main-content");
 
   newline = createDiv("Columns");
   newline.parent("main-content");
 
-  colcount = createInput('30', 'number');
+  colcount = createInput('20', 'number');
   colcount.parent("main-content");
 
   newline = createDiv("Scale");
